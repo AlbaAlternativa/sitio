@@ -2,21 +2,115 @@
                                           /* CSS de Alba Álvarez */
                                     /* --------------*****-------------- */
       /*  """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""*/ 
+a#boton{
+    /*  padding-top: 10px;
+      padding-bottom:10px;
+      padding-left: 20px;
+      padding-right: 20px;
+*/
+
+background-color: rgb(83, 18, 145);
+border-radius: 5px;
+
+/* creando SHORTHAND de el paddind */
+padding: 10px 20px 10px 20px;
+margin-bottom: 20px;
+display: inline-block;
+
+}
+
+.cajaroja__texto
+{
+      font-size: 14pt
+}
+
+.cajaroja__texto__negrita
+{
+      font-weight: 900;}
+
+.cajaazul__texto
+{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color: aliceblue;
+}      
+
+.cajaazul__texto__negrita
+{
+      font-stretch: condensed;
+      color: aqua;
+}
+
+.menu-principal
+{
+      float: right;
+      border-bottom: 1px solid dashed black;
+      padding-bottom: 10px;
+}
+
 
       
-      div {
+
+
+.menu-principal__item01,
+.menu-principal__item02,
+.menu-principal__item03,
+.menu-principal__item04
+      {
+      color:black;
+      margin-bottom: 10px;
+      margin-right: 10px;
+      margin-left: 10px;
+      margin-top: 10px;
+      }
+.menu-principal__item01
+{
+      color: red;
+      font-weight: bolder;
+}
+
+/* crear un roll over con el menu en la pseudo clase HOVER */
+
+.menu-principal__item02:hover,
+.menu-principal__item03:hover,
+.menu-principal__item04:hover
+{ color:red;}
+
+
+      .menu-principal__item02:visited,
+      .menu-principal__item03:visited,
+      .menu-principal__item04:visited
+      {
+            color: black;
+           
+
+      }
+
+.menu-principal__item01--off,
+.menu-principal__item02--off,
+.menu-principal__item03--off,
+.menu-principal__item04--off
+{
+      color: red;
+      font-weight: bolder;
+}
+
+      div.cajaroja{  
+      width: 300px;
+      height: 300px;
+      background-color: red;
+      border: 3px solid white;
+
+}
+      
+div.cajaazul {
             width: 300px;
             height: 300px;
             background-color: blue;
             border: 3px solid white;
       
-      
+             }
+       
       /*propiedad nativa*/
       /* display: block;} */
 
 /* cambiar la propiedad nativa */
-            spam {
-
-            background-color: green;
-
-            }

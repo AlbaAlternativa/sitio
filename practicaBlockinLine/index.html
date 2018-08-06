@@ -63,22 +63,53 @@
 <link rel="stylesheet" href="css/resets/normalize.css">
 <link rel="stylesheet" href="css/estilos.css">
 
-
-
+<!-- 2a manera mas potente de meter un estilo -->
+<style>
+    .menu-principal__item01{
+        color: green;
+    }
+</style>
 
 
 
 </head>
 <body>
+    <a id="boton" href="../index.html"> Inicio
+
+    </a>
+
+    
 
 <!-- crear cuadrado rojo -->
-<div>
-
+<div class="cajaroja">
+<p class="cajaroja__texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero omnis quaerat nostrum corporis temporibus, suscipit <span class="cajaroja__texto__negrita"> cum distinctio accusantium fugit voluptate doloribus nesciunt tempora </span>consequuntur cupiditate laudantium ea reprehenderit asperiores nihil!</p>
 </div>
+<div class="cajaazul">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolores ad <p class="cajaazul__texto__negrita"> tenetur fuga, quia porro sed cum odit ullam doloribus adipisci voluptatum</p> recusandae ipsa! Corrupti fugiat dolores illo optio tempore?</div>
 
 <!-- cumple la funcion de inline -->
 <span>hola</span>
 <span>adios</span>
+<hr>
+<h1>nuevo ejemplo pero en BEM    </h1>
 
+<!-- abrebiatura super molona para crear 4 a dentro de nav  -->
+<!-- header>nav.menu>a.menu__item0${item0$}*4 -->
+
+<!-- 1a forma de meter los estilos mas potentes -->
+<header>
+    <nav class="menu-principal">
+        <a class="menu-principal__item01--off">Inicio</a>
+        <span>&#9474;</span>
+        <a href="#" class="menu-principal__item02">Servicio</a>
+        <span>&#9474;</span>
+        <a href="#" class="menu-principal__item03">Quienes somos</a>
+        <span>&#9474;</span>
+        <a href="#" class="menu-principal__item04">Contactar</a>
+    </nav>
+</header>
+
+<a>
+    
+</a>
 </body>
 </html>
