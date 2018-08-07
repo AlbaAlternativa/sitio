@@ -1,0 +1,90 @@
+/*-------------------------------------------------------------------------------------------------------------*/
+                                          /* CSS de Alba Álvarez */
+                                    /* --------------*****-------------- */
+      /*  """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""*/ 
+
+      .sliderprincipal{
+            background-image:url('../IMG/DESKTOP/chile.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+
+      }
+
+      .sliderprincipal__texto{
+            padding: 350px 0;
+            text-align: right;
+            width: 75%;
+      
+      }
+
+
+      .sliderprincipal__titulo{
+            font-size: 100px;
+            font-family:'arial black';
+            color: aquamarine;
+            text-transform: uppercase;
+            margin: 10px;
+           
+      }
+
+
+      .sliderprincipal__boton{
+            font-family:'arial black';
+            color: aquamarine;
+            border: 1px solid aquamarine;
+            background-color: azure;
+            padding: 10px 10px;
+            margin-right: 10px;
+            border-top-width: 1px;
+
+      }
+
+
+
+      /* css index2 */
+
+
+
+      .moca {
+           
+            /* block-size: 100%; */
+            /* display: block; */
+            width: 45%;
+            /* float: left; */
+            padding: 50pt;
+
+      }
+      
+      .moca2__texto {
+            font-family: 'arial';
+            font-size: 14pt;
+            color: black;
+            /* clear: both; */
+            width: 40%;
+            display: inline-block;
+            vertical-align: top;
+            padding-top: 65px;
+            padding-right: 15px;
+            text-align: start;
+      }
+
+     /* .moca__boton{
+            font-family:'arial black';
+            color: aquamarine;
+            border: 1px solid aquamarine;
+            background-color: azure;
+            padding: 10px 10px;
+            margin-right: 10px;
+            margin-bottom: 80px;
+            border-top-width: 1px;
+      }*/
+
+      .moca2__texto2{
+            font-family:'arial';
+            color: aquamarine;
+            font-size: 12pt;
+            text-align: justify;
+            padding-left: 65px;
+            padding-right: 35px;
+      }
