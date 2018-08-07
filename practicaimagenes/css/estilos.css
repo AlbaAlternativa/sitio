@@ -1,0 +1,25 @@
+/*-------------------------------------------------------------------------------------------------------------*/
+                                          /* CSS de Alba Álvarez */
+                                    /* --------------*****-------------- */
+      /*  """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""*/ 
+
+      /* DIV q no es SEO */
+      /* el div es una caja */
+      .bannermarca{
+            background-position: bottom;
+            width: 12%;
+
+            
+      }
+
+
+      /* IMG que si es SEO */
+      .bannerfondo{
+          background-image: url('../IMG/DESKTOP/chile.jpg');
+           width: 100%;
+            height: 1000px;
+            background-size: cover;
+            
+
+/* ajustar imagen a total de la pantalla */
+      }
