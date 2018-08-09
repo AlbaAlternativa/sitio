@@ -45,7 +45,7 @@ h6{font-size: 0.6rem;}
 /* -----------parrafos-------------- */
  
 p{
-    font-size: 1rem;
+    font-size: 1.250rem;
     }
 
 pre{
@@ -77,4 +77,53 @@ background-color:#9AC0C7;
 .grismedioFondo{
     background-color: #707070;
 }
-/*  */
+
+
+
+
+/* TAMAñoS TIPOS */
+
+
+.tituloPrincipal{
+    font-size: 9.125rem;
+}
+
+.botonTexto{
+    font-size: 2.188rem;
+}
+
+/* -----------------GRISES------------ */
+
+.grisoscuroFonfo{
+    background-color :#454545;
+
+}
+.grisoscuroTexto{
+    background-color: #454545;
+
+}
+
+.grismedioFondo{
+    background-color: #a5a5a5;
+
+}
+.grismedioTexto{
+    color: #a5a5a5;
+}
+
+.grislightFondo{
+    background-color: #eeeeee;
+
+}
+
+.grislightTexto{
+    color: #eeeeee;
+
+}
+
+.blancoFondo{
+    background-color:  #f7f7f7;
+}
+.negrofondo{
+    background-color: rgb(16, 16, 16);
+}
