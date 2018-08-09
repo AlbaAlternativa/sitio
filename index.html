@@ -7,20 +7,114 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 
-<!-- ESTILOS -->
-<style>
-    ol{
-        list-style-type: none;
-    }
-    a{
-        color: black;
-        text-decoration: none;
-    }
 
-    ol li{
-        margin-bottom: 20px;
-    }
-</style>
+
+    <!-- ESTILOS -->
+    <style>
+        /* -- FUENTES ESTILOS -->*/
+
+        @font-face {
+            font-family: 'Opensansregular';
+            src: local('Opensansregular'),
+            url('opensans-regular-webfont.woff') format('woff');
+        }
+
+        @font-face {
+            font-family: 'Opensansbold';
+            src: local('Opensansbold'),
+            url('opensans-bold-webfont.woff') format('woff');
+
+        }
+
+        html {
+            font-size: 16px;
+            font-family: 'Opensansregular', sans-serif;
+            color: #bababa;
+        }
+        body{
+            padding: 150px;
+        }
+
+        /*<!--ESTILOS LISTA --/-->*/
+
+        ol {
+            list-style-type: none;
+            padding-left:0;
+        }
+
+        a {
+            color: #bababa;
+            text-decoration: none;
+
+        }
+
+        ol li {
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        H1,
+        H4 {
+            font-family: 'Opensansbold', sans-serif;
+            color: black;
+        }
+
+h1{
+    margin-bottom: 0;
+}
+        h4{
+            margin-top: 0px;
+            margin-bottom: 80px;}
+
+        /* rollover */
+
+        ol li:hover span.icon,
+        ol li:hover a {
+            color: red;
+            /* font-family: 'Opensansbold'; */
+            text-decoration: underline;
+            font-weight: 900;
+            /* letter-spacing: 5px; */
+        }
+
+        /* a:active{  color: blue;  } */
+
+
+        /* popup */
+
+        .popup{
+            width: 100px;
+            height: 100px;
+            border: 10px solid #eee;
+
+            display:none;
+            position: absolute;
+
+            top: 0px;
+            left:   350px;
+            z-index: 10;
+
+
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* x=horizontal y= vertical , esperor, ancho */
+            box-shadow: 15px 15px 15px 5px rgb(0, 0, 0,0.5);
+        }
+ol li:hover .popup{
+    display: inline-block;
+}
+
+        .popup01{
+            background-image: url('practicaBlockinLine/IMG/desktop/practicaBlockinLine.jpg')
+        }
+        .popup02{
+            background-image: url('practicaimagenes/IMG/desktop/practicaimagen.jpg')
+        }
+        .popup03{
+            background-image: url('practicabanner/IMG/desktop/practicabanner.jpg')
+        }
+
+    </style>
 
 
 </head>
@@ -28,27 +122,38 @@
 
 
 <body>
-    <h1>Directorio Web:
-        <h2>AALTERNATIVA</h2>
-    </h1>
+    <h1>Directorio Web: </h1>
+
+    <h4>(Alba Alternativa)</h4>
+
 
     <ol>
         <li>
+            <!-- insertar icono -->
+            <span class="icon">&#9658; </span>
             <a href="practicaBlockinLine/index.html">
                 Práctica block in line(HTML / CSS)
             </a>
+            <!-- pop-up de esta practica -->
+            <div class='popup popup01'></div>
         </li>
-        
+
         <li>
+            <!-- insertar icono -->
+            <span class="icon">&#9658; </span>
             <a href="practicaimagenes/index.html">Practica imagenes</a>
+            <div class='popup popup02'></div>
 
         </li>
 
         <li>
+            <!-- insertar icono -->
+            <span class="icon">&#9658; </span>
             <a href="practicabanner/index.html"> Practica banner</a>
+            <div class='popup popup03'></div>
 
-           </li>
-    </ul>
+        </li>
+        </ul>
 </body>
 
 </html>

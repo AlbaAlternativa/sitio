@@ -1,0 +1,80 @@
+/*------------------------------------- GUIA DE ESTILOS ------------------------------*/
+                            /*+++++++++++++ Alba Álvarez+++++++++++ */
+/* 
+
+--- @font face ----
+
+*/
+
+
+/* H`s */
+
+
+
+/* SEO */
+
+h1{
+font: size 2.5rem;
+}
+
+
+
+h2{
+
+font-size: 2rem;}
+
+
+
+h3{font-size: 1.5rem;
+
+}
+
+/* <p> es 1 rem*/
+
+h4{
+    font-size: 0.8rem;
+
+}
+
+h5{ font-size:0.6rem;}
+
+h6{font-size: 0.6rem;}
+
+
+
+/* -----------parrafos-------------- */
+ 
+p{
+    font-size: 1rem;
+    }
+
+pre{
+    font-size: 1rem;
+}
+
+/* --------------------------------COLORES---------------------------- */
+.turquesaTexto{
+    color: #71C8AC;
+}
+
+.turquesaFondo{
+   background-color: #71C8AC;
+}
+
+.azulgrisTexto{
+color: #9AC0C7;
+}
+
+
+.azulgrisFondo{
+background-color:#9AC0C7;
+}
+
+.grismedioTexto{
+    color: #707070;
+}
+
+.grismedioFondo{
+    background-color: #707070;
+}
+/*  */
