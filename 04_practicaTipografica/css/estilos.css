@@ -2,3 +2,57 @@
                                           /* CSS de Alba Álvarez */
                                     /* --------------*****-------------- */
       /*  """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""*/ 
+/* MENU */
+
+header{
+      padding: 10px 100px;
+      background-color: black;
+
+}
+
+.logo{
+width: 80px;
+}
+.menuPrincipal{
+      float: right;
+      clear: both;
+      padding-top: 30px;
+      }
+
+.bannerfondo__texto{
+      top: 10px;
+      left: 10px;
+      color: blue;
+}
+
+.imagen1__texto{
+      width: 100%;
+      position: relative;
+
+}
+.titulo__texto{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:   gray;
+
+}
+.subtitulo__texto{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color:   gray;
+}
+
+.cuadrado1{
+      float: center;
+      width: 27%;
+
+
+}
+.cuadrado2{
+      float: center;
+      width: 27%;
+
+}
+cuadrado{
+      float: center;
+      width: 27%;
+
+}
