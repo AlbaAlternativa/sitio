@@ -1,36 +1,77 @@
 /*-------------------------------------------------------------------------------------------------------------*/
-                                          /* CSS de Alba Álvarez */
-                                    /* --------------*****-------------- */
-      /*  """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""*/ 
+
+/* CSS de Alba Álvarez */
+
+/* --------------*****-------------- */
+
+/*  """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""*/
+
 /* formulario */
 
-
-
-html{
+html {
       font-size: 16px;
       font-family: sans-serif;
 }
 
-ul{
+ul {
       list-style-type: none;
 }
 
-
-label, input, textarea{
-display: block;
+label,
+input,
+textarea {
+      display: block;
 }
 
 /* label */
-li:nth-child(2n+1){
+
+li:nth-child(2n+1) {
       font-weight: 900;
+      font-size: 1.1rem;
+      margin-bottom: 0.2rem;
+      letter-spacing: 0.05rem;
+
 }
 
 /* inputs */
-li:nth-child(2n){
-      margin-bottom: 1.5rem;
 
+li:nth-child(2n) {
+      margin-bottom: 1.7rem;
 }
 
-li:nth-child(2n) input, li:nth-child(2n) textarea{
+li:nth-child(2n):hover input, li:nth-child(2n):hover textarea{
+background-color:blue;
+color: white;      
+}
+
+
+ul {
+      width: 320px;
+}
+
+/* inputformato */
+
+li:nth-child(2n) input,
+li:nth-child(2n) textarea {
       width: 300px;
+      padding: 0.5rem;
+      color: blue;
+      font-size: 1.2rem;
+      font-style: italic;
+      border-radius: 3px;
+      border: 1px solid grey;
+}
+
+li:nth-child(2n) textarea {
+      height: 150px;
+}
+
+li.boton button {
+      font-size: 0.8rem;
+      width: 100%;
+      border-radius: 3px;
+      background-color: blue;
+      color: white;
+      border: 0;
+      padding: 0.5rem;
 }
