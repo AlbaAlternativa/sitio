@@ -11,14 +11,26 @@ html{
       font-family: sans-serif;
 }
 
-
+ul{
+      list-style-type: none;
+}
 
 
 label, input, textarea{
 display: block;
 }
 
+/* label */
+li:nth-child(2n+1){
+      font-weight: 900;
+}
 
+/* inputs */
 li:nth-child(2n){
       margin-bottom: 1.5rem;
+
+}
+
+li:nth-child(2n) input, li:nth-child(2n) textarea{
+      width: 300px;
 }
