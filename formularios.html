@@ -1,0 +1,105 @@
+<head></head>>
+<body>
+    
+
+
+<hr>
+<label for="nombreyapellido">nombre</label>
+<input name="NONbre y apellido" type="text" size="40" maxlength="10" pattern="[A - Z]"
+
+
+
+
+>
+<!-- botones -->
+
+<h2>Radio</h2>
+<hr>
+
+<input type="radio" name="genero" value="hombre" checked>Hombre
+
+<input type="radio" name="genero" value="mujer">Mujer
+
+<input type="radio" name="genero" value="otro">Otro
+
+
+<!-- lista desplegable -->
+
+<h2>SELECT</h2>
+<hr>
+<select name="cars" >
+
+    <option value="volvo">Volvo</option>
+    <option value="audi">Audi</option>
+    <option value="alfaromeo">Alfa Romeo</option>
+    <option value="jaguar">Jaguar</option>
+    <option value="saab">Saab</option>
+    <option value="mercedes">Mercedes</option>
+</select>
+
+
+<!-- TEXT AREA -->
+<h2>text Area</h2>
+<textarea name="message" rows="10" cols="30" >Introduce aquí tu mensaje</textarea>
+<!-- el cols a veces se elimina xk tenemos widht en la etiqueta de la zona para delimitar el espacio -->
+
+<!-- DataList -->
+
+<hr>
+<input list="browsers">
+ <datalist id= "browsers">
+<option value="Internet Explore">
+ <option value="Firefox">
+<option value="Opera">
+                    <option value="Chrome">
+    <option value="Safari">
+    <option value="Firefox Develouper Edition">
+ </datalist>
+
+<!-- PASSWORD -->
+<hr>
+<label for="PASSWORD">* Keyword:</label>
+<input type="password" name="password" required autocomplete="off">
+
+
+
+
+
+<!-- checkBox -->
+<h2>checkBox</h2>
+<hr>
+<input type="checkbox" name="v1" value="Bici">
+<input type="checkbox" name="v2" value="Coche">
+<input type="checkbox" name="v3" value="Tren">
+<input type="checkbox" name="v4" value="Autobus"> 
+
+
+
+
+
+<!-- formulario de practica -->
+
+
+<form action="puente.php" method="POST" autocomplete="on">
+
+        <!-- label{Nombre}+input+label{Mensaje}+input    instruciion abreviada-->
+
+
+<!-- nombre -->
+
+    <label for="">* Nombre</label>
+    <input type="text" required autofocus>
+    <!-- email -->
+    <label for="">* Email</label>
+    <input name="email" type="email" required>
+    <!-- Mensaje -->
+    <label for="">*Mensaje</label>
+    <textarea name="mensaje" required autocomplete="off"> 
+        Introduce aquí tu mensaje y en 48h tendrá una respuesta.
+
+    </textarea>
+</form>
+
+
+
+</body>
